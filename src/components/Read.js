@@ -35,8 +35,8 @@ const Read = () => {
   const getData = () => {
     axios
       .get(`https://63971e3d86d04c76338b596c.mockapi.io/products`)
-      .then((getData) => {
-        setCartData(getData.data);
+      .then((res) => {
+        setCartData(res.data);
       });
   };
   return (

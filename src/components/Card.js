@@ -74,6 +74,7 @@ const Image = styled.img`
   margin-bottom: 20px;
   margin-left: 10%;
   margin-top: 2%;
+  object-fit: fill;
 `;
 
 const Desc = styled.p`
